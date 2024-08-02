@@ -1,0 +1,135 @@
+
+.mainFxmlClass {
+
+}
+
+.close{
+        -fx-background-color:   transparent;
+        -fx-cursor :hand;
+}
+.close:hover{
+     -fx-background-color:   #ff3f3f;
+    
+}
+.minus{
+    -fx-background-color:   transparent;
+    -fx-cursor :hand;
+}
+.minus:hover{
+ -fx-background-color:   #ff3f3f;
+}
+.navBtn{
+     -fx-background-color:   transparent;
+     -fx-border-color:#004170;
+      -fx-cursor :hand;
+}
+.navBtn:hover{
+     -fx-background-color:   #1E2952;
+}
+
+.signoutBtn{
+     -fx-background-color:   #6b1a1a;
+     -fx-text-fill:#e4e4e4;
+     -fx-background-radius: 30%;
+      -fx-cursor :hand;    
+}
+
+.signoutBtn:hover{
+     -fx-background-color:    #132257;
+     
+}
+.shadow{
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,0.5), 6,0,0,0);
+}
+.chart{
+     -fx-background-color:   #E1EBEE;
+     -fx-border-color:#2344;
+     
+}
+.allBg{
+    -fx-background-color:   #E1EBEE;
+    -fx-background-radius: 8px;
+}
+.totalBg{
+    -fx-background-color:   #007791;
+    -fx-background-radius: 8px;
+}
+
+
+
+.textfield{
+     -fx-background-color: linear-gradient( to bottom, #efefef, #eee);
+     -fx-background-radius: 3px; 
+     -fx-border-radius: 3px; 
+     -fx-border-width: 5px;   
+}
+
+.textfield:focused{
+    -fx-background-color:   #fff;
+    -fx-border-width: 1.5px; 
+}
+.updatebtn{
+      -fx-background-color:   transparent;
+     -fx-border-color:#004170;
+      -fx-cursor :hand;
+}
+
+.updatebtn:hover{
+    -fx-background-color:   #1E2952;
+    -fx-text-fill: #eee;
+}
+
+
+.deletebtn{
+      -fx-background-color:   transparent;
+     -fx-border-color:#004170;
+      -fx-cursor :hand;
+}
+
+.deletebtn:hover{
+    -fx-background-color:   #6b1a1a;
+    -fx-text-fill: #eee;
+}
+.search{
+      -fx-background-color: #fff;
+     -fx-background-radius: 8px; 
+     -fx-border-radius: 8px; 
+     -fx-border-width:1px; 
+      -fx-border-color:#004170;
+}
+.search:focused{
+    -fx-border-width:2px; 
+}
+
+
+
+.table-view{
+     -fx-background-color: transparent;
+     -f-border-color:linear-gradient( to bottom right, #444750, #696d72);
+     -fx-border-radius: 8px; 
+     -fx-border-width:2px; 
+      -fx-padding:0px;
+}
+
+.table-view .table-column{
+    -fx-alignment: CENTER;
+}
+
+.table-view .column-header-background{
+      -fx-background-color: #ADD8E6;
+       -fx-text-fill: #4354;
+      -fx-padding-top:3px;
+       -fx-padding-bottom:3px;
+}
+
+.table-view .column-header .filter{
+     -fx-background-color: transparent;
+     -fx-size: 40px;
+}
+.table-view .column-header .lebel{
+      -fx-text-fill: #fff;
+}
+
+
+
+
